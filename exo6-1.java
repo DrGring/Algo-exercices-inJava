@@ -1,4 +1,4 @@
-//Alg
+//Algorithme déclarant un tableau et le remplissant de valeurs numériques toutes mis a zéro
 import java.util.Arrays;
 
 public class numberAZero {
