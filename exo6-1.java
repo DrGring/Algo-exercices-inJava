@@ -1,4 +1,6 @@
 //Algorithme déclarant un tableau et le remplissant de valeurs numériques toutes mis a zéro
+
+//création de l'objet Arrays qui permet l'utilisation des arrays(tableaux)
 import java.util.Arrays;
 
 public class numberAZero {
