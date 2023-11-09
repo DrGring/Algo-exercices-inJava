@@ -27,3 +27,4 @@ public class Notes {
         System.out.println("la moyenne est de : " +moyenne);
     } 
 }
+//DON'T FORGET TO PUSH YOUR WORK RENE
