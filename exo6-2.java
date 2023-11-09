@@ -1,3 +1,6 @@
+//Algo qui affiche un tableaux avec les 6 lettres de l'alphabet latin
+
+//création de l'objet Arrays qui permet l'utilisation des arrays(tableaux)
 import java.util.Arrays;
 
 public class Voyelles{
@@ -15,6 +18,7 @@ public class Voyelles{
     // System.out.println(sixVoyelles);
     }
 }
+
 /*String[] helloWorld = {"Hello", "World"};
 System.out.println(helloWorld);
 System.out.println(Arrays.toString(helloWorld));
