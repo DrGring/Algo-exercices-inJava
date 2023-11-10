@@ -37,6 +37,8 @@ public class NotesAStocker {
         scanner.close();
 
         //Afficher les valeurs saisis et stockées 
-        System.out.println("Vous aviez saisis et stocker : " +notesASaisirAStocker+ ", comme valeurs négatifs : " + notesNegatif + " et comme valeurs positifs : " + notesPositif);
+        System.out.print("Vous aviez saisis et stocker : " +notesASaisirAStocker);
+        System.out.print(", comme valeurs négatifs : " + notesNegatif);
+        System.out.print(" et comme valeurs positifs : " + notesPositif);
     } 
 }
