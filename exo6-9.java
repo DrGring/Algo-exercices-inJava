@@ -1,0 +1,49 @@
+//Algo qui permet de saisir des données et de les stockées dans un tableau après afficher les valeurs négatives
+// et positives à part ensuite calcule  la somme des valeurs du tableau
+import java.util.Scanner;
+import java.util.Arrays;
+import java.util.ArrayList;
+import java.util.List;
+
+public class NotesAStocker {
+
+    public static void main (String[] args) {
+        //Création d'une instance de la classe Scanner qui lit les entrées et qui vas récupérer les valeurs saisies
+        Scanner scanner = new Scanner(System.in);
+        //Création d'instance de la classe ArrayList pour pouvoir utiliser la méthode add() afin de stocker les valeurs
+        List<Integer> notesASaisirAStocker = new ArrayList<>();
+        List<Integer> notesNegatif = new ArrayList<>();
+        List<Integer> notesPositif = new ArrayList<>();
+        int sum = 0;
+
+
+        System.out.print("Entrez le nombre de valeurs :");
+        int taille = scanner.nextInt();
+
+        for (int i=0; i<taille; i++) {
+            System.out.print("Saisir la note N°" +(i+1)+ " : ");
+            //Variables notesSaisis qui réccupère les entiers saisis après lecture graçe a la méthode nextInt()
+            int notesSaisis = scanner.nextInt();
+            System.out.println("saisis de " +notesSaisis);
+            notesASaisirAStocker.add(notesSaisis);
+
+            
+            //condition pour séparer les valeurs négatives des positives
+            if(notesSaisis<0){
+                notesNegatif.add(notesSaisis);
+            }else {
+                notesPositif.add(notesSaisis);
+            }
+            //Somme des valeurs saisis 
+            sum += notesASaisirAStocker.get(i);
+        }
+        //La méthode scanner.close() ferme l'objet Scanner et libère les ressources associées à la lecture des entrées de l'utilisateur
+        scanner.close();
+
+        //Afficher les valeurs saisis et stockées 
+        System.out.print("Vous aviez saisis et stocker : " +notesASaisirAStocker);
+        System.out.print(", comme valeurs négatifs : " + notesNegatif);
+        System.out.println(" et comme valeurs positifs : " + notesPositif);
+        System.out.println("La somme des valeurs du tableau donne : " +sum);
+    } 
+}
