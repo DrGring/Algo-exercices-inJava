@@ -1,3 +1,4 @@
+//Algo qui Calcule la somme des indices entres deux tableaux et qui affiches ensuite le résultat"
 import java.util.Arrays;
 
 public class Main {
