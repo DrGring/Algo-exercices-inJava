@@ -1,6 +1,5 @@
 //Algo qui permet de saisir des données et de les stockées dans un tableau après afficher les valeurs négatives différentes des autres  
 import java.util.Scanner;
-import java.util.Arrays;
 import java.util.ArrayList;
 import java.util.List;
 
