@@ -1,7 +1,6 @@
 //Algo qui permet de saisir des données et de les stockées dans un tableau après afficher les valeurs négatives
 // et positives à part ensuite calcule  la somme des valeurs du tableau
 import java.util.Scanner;
-import java.util.Arrays;
 import java.util.ArrayList;
 import java.util.List;
 
