@@ -17,7 +17,7 @@ public class NotesAStocker {
         for (int i=0; i<taille; i++) {
             System.out.print("Saisir la valeur N°" +(i+1)+ " : ");
 
-            //Variables vleursSaisis qui réccupère les entiers saisis après lecture graçe a la méthode nextInt()
+            //Variables vleursSaisis qui réccupère les entiers saisis après lecture graçe à la méthode nextInt()
             int valeursSaisis = scanner.nextInt();
             System.out.println("saisis de " +valeursSaisis);
             valeursASaisirAStocker.add(valeursSaisis+1);
